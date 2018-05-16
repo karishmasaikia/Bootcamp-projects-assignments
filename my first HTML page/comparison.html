@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+<!-- some additional links and scripts are added as dropdown menu class wasnt working with Bootstrap version 3-->
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Analysis</title>
+    <link href="bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+ 
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="WeatherAnalysis.html">Latitude</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">        
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="max-temp.html">Max Temp</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="windspeed.html">Windspeed</a></li>
+                </ul>
+            </li>    
+
+            <li>
+               <a href = "comparison.html">Comparison</a>
+            </li>
+            <li>
+                <a href ="data.html">Data</a>
+            </li>
+        </ul>
+        </div>
+
+</div>
+</nav>
+
+<div class="container mycolor">
+
+   <h1>Comparison:Latitude Vs X
+   </h1>
+    <p> click any plot to get an indepth analysis</p>
+   
+    <div class = "row">
+        <div class = "col-sm-6 compimage">
+           <h2>vs. Max Temperature</h2>
+           <a href ="max-temp.html">
+              <img src ="Lat_vs_MaxTemp.png"></a>
+        </div>
+        <div class = "col-sm-6 compimage">
+            <h2>vs. Humidity</h2>
+            <a href ="humidity.html">
+                <img src ="Lat_vs_Humidity.png"></a>
+        </div>
+        
+    </div>
+    <div class = "row">
+        <div class = "col-sm-6 compimage">
+            <h2> vs. Cloudiness</h2>
+               <a href ="cloudiness.html"><img src ="Lat_vs_Cloudiness.png"></a>
+        </div>
+        <div class = "col-sm-6 compimage">
+            <h2> vs. Windspeed</h2>
+                <a href ="windspeed.html"><img src ="Lat_vs_Windspeed.png"></a>
+        </div>
+            
+    </div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+</body>

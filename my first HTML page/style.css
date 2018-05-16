@@ -1,0 +1,155 @@
+
+body {
+    margin:10px;
+    padding:0;
+    background:lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.navbar li {
+    font-size:20px;
+    color:darkolivegreen;
+}
+.navbar-brand{
+    font-size:30px;
+    font-weight: Bold;
+}
+
+
+.container{
+
+    width:100%;
+    padding-top:100px;
+}
+
+.navbar {
+    background-color:lightpink;
+    height:100px;
+    padding-top:30px;
+    
+}
+
+
+
+.leftimage,.projectsummary,.box-set,.box { 
+    float:left;}
+
+.projectsummary{
+       
+    padding:20px;
+    margin:30px;
+    font-size: 20px;
+    color:black;
+    line-height:150%;
+    background-color: white;
+     
+    }
+
+.summary{
+    margin:10px;
+}
+
+.pageheader {
+    padding:10px;
+    margin:10px;
+    font-weight: Bold;
+    color:darkolivegreen;
+    font-size: 20px;
+}
+
+.box-set {
+     /* --after height was given, then only css positiong property worked--> */
+    /* width:400px;
+    height:400px; */
+    /* position:relative; */
+    padding:0;
+    margin:10px;
+
+}
+
+.box  {
+    /* position:absolute; */
+    margin:10px;
+    float:left;
+  
+}
+/* .box1 {
+    
+    top:0;
+    left:0;
+   
+}
+.box2 {
+    
+    top:0;
+    right:0;
+    
+}
+.box3 {
+   
+    bottom :0;
+    left:0;
+   
+}
+.box4 {
+    bottom:0;
+    right:0;
+   
+} */
+
+
+/* image resizing*/
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.visual {
+    width:500px;
+    height:300px;
+}
+
+.visual img {
+    width: 100%;
+    height:auto;
+    
+}
+.xsummary {
+    margin-top:150px;
+}
+
+
+.compimage {
+    width:500px;
+    height:500px;
+}
+
+.compimage img {
+    width: 100%;
+    height:auto;
+    
+}
+
+.table {
+    border: 10px solid darkolivegreen;}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+   border: 2px solid darkolivegreen;
+}
+
+.mycolor {
+    color:darkolivegreen;
+    font-weight: 20px;
+}
+  
